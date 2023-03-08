@@ -1,0 +1,56 @@
+.title_deal {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: nowrap;
+    line-height: 1.2;
+    display: block;
+    max-width: 180px;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title_items {
+    word-break: break-all;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: nowrap;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+}
+
+.title.mb-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.trans_body {
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+}
+
+.body_content{
+font-weight: bold;
+font-style: italic;
+}
+
+.title-section.text-uppercase.trans{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 300px;
+}
+
+.title-section.text-uppercase.rules{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 400px;
+}
